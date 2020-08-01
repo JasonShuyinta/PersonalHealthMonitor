@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MyPieChart">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/etChooseInfo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/chooseInfo"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="15dp" />
+
+            <Spinner
+                android:id="@+id/spinnerInfo"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:paddingRight="2dp"
+                android:paddingLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="3dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/etWeight"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/chooseRange"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp" />
+
+            <Spinner
+                android:id="@+id/dateRange"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:paddingRight="2dp"
+                android:paddingLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="3dp" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnShowGraph"
+            android:background="@drawable/custom_button"
+            android:text="@string/showGraph"
+            android:layout_gravity="center_horizontal">
+        </Button>
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="35dp"
+            android:id="@+id/pieChart">
+        </com.github.mikephil.charting.charts.PieChart>
+
+    </LinearLayout>
+
+</LinearLayout>

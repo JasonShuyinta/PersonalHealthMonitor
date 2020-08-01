@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">PHM</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Report</string>
+    <string name="menu_gallery">Search</string>
+    <string name="menu_slideshow">Graphs</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="menu_create">Report</string>
+    <string name="menu_modify">Modify report</string>
+    <string name="menu_delete">Delete report</string>
+    <string name="menu_graphs">Graphs</string>
+    <string name="body_temperature">Body Temperature</string>
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="glycemic_index">Glycemic Index</string>
+    <string name="body_weight">Body Weight</string>
+    <string name="sleep_time">Sleep Time</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="confirm">Confirm</string>
+    <string name="today">Today</string>
+    <string name="date">Date</string>
+    <string name="optionalNote">Optional Note</string>
+    <string name="very_low_glycemic_level">Very Low</string>
+    <string name="low_glycemic_level">Low</string>
+    <string name="normal_glycemic_level">Normal</string>
+    <string name="high_glycemic_level">High</string>
+    <string name="chooseGraph">Select a chart</string>
+    <string name="barChart">Bar Chart</string>
+    <string name="lineChart">Line Chart</string>
+    <string name="pieChart">Pie Chart</string>
+    <string name="radarChart">Radar Chart</string>
+    <string name="chooseInfo">Choose the data</string>
+    <string name="chooseRange">Choose a date range</string>
+    <string name="showGraph">Show Chart</string>
+    <string name="lastUpdate">Last Update: %d</string>
+    <string name="veryLowGlycemic">Less than 55</string>
+    <string name="lowGlycemic">Less than 60</string>
+    <string name="normalGlycemic">Less than 80</string>
+    <string name="highGlycemic">Greater than 90</string>
+    <string name="one">1 of 5</string>
+    <string name="two">2 of 5 </string>
+    <string name="three">3 of 5</string>
+    <string name="four">4 of 5</string>
+    <string name="five">5 of 5</string>
+    <string name="threshold">*Information with importance greater than 3 are already set to notify you when the threshold is reached*</string>
+    <string name="byInfo">By Information</string>
+    <string name="byDate">By Date</string>
+    <string name="byImportance">By Importance</string>
+    <string name="subTitleImportance">View reports with the selected importance since a specified date</string>
+    <string name="chooseImportance">Choose the level of importance for your information</string>
+    <string name="lowestHighest">1: Lowest - 5: Highest</string>
+    <string name="save">Save</string>
+    <string name="threshold_settings">Threshold Settings</string>
+    <string name="time_period">Time period</string>
+    <string name="thresholds">Thresholds</string>
+    <string name="_0mmhg">0mmHg</string>
+    <string name="insert_temperature">Insert Temperature</string>
+    <string name="insert_your_weight">Insert your weight</string>
+    <string name="choose_a_date">Choose a date</string>
+    <string name="next">Next</string>
+    <string name="choose_how_to_view_your_reports">Choose how to view your reports:</string>
+    <string name="set_reminder_time">Set Reminder Time</string>
+    <string name="notifications">Notifications</string>
+    <string name="_15_00">15:00</string>
+    <string name="vibration">Vibration</string>
+    <string name="data">Data</string>
+    <string name="set_importance">Set Importance</string>
+    <string name="about">About</string>
+    <string name="version">Version</string>
+    <string name="_1_0">1.0</string>
+    <string name="faq">FAQ</string>
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="choose_the_glycemic_level">Choose the glycemic level</string>
+    <string name="average">Average:</string>
+    <string name="insert_heart_rate">Insert Heart Rate</string>
+    <string name="bpm">BPM</string>
+    <string name="are_you_sure_you_want_to_delete_this_record">Are you sure you want to delete this record?</string>
+    <string name="date_1">Date:</string>
+    <string name="information_1">Information:</string>
+    <string name="optional_note_1">Optional Note:</string>
+    <string name="recordo_no">Recordo No.</string>
+    <string name="information">Information:</string>
+    <string name="optional_note">Optional Note:</string>
+    <string name="set_thresholds_to_monitor_for_each_of_your_information_for_the_chosen_period_of_time">Set thresholds to monitor for each of your information for the chosen period of time</string>
+
+    <string-array name="weightScale">
+        <item>Kg</item>
+        <item>Lbs</item>
+    </string-array>
+
+    <string-array name="tempScale">
+        <item>C°</item>
+        <item>F°</item>
+    </string-array>
+
+    <string-array name="dateRange">
+        <item>Last 5 days</item>
+        <item>Last week</item>
+        <item>Last 2 weeks</item>
+        <item>Last month</item>
+        <item>Max</item>
+    </string-array>
+
+    <string-array name="info">
+        <item>Body Temperature</item>
+        <item>Blood Pressure</item>
+        <item>Glycemic Index</item>
+        <item>Heart Rate</item>
+        <item>Body Weight</item>
+        <item>Sleep Time</item>
+    </string-array>
+
+    <string-array name="importance">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="time_period">
+        <item>5 days</item>
+        <item>1 week</item>
+        <item>2 weeks</item>
+        <item>3 weeks</item>
+        <item>1 month</item>
+        <item>2 months</item>
+    </string-array>
+</resources>
+

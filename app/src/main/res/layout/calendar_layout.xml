@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:text="@string/choose_a_date"/>
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="44dp">
+
+        <CalendarView
+            android:layout_width="wrap_content"
+            android:layout_height="320dp"
+            android:id="@+id/calendar_view"
+            android:background="@drawable/bg_calend">
+        </CalendarView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinnerInfo"
+            android:layout_width="180dp"
+            android:layout_height="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tvChosenDate"
+        android:textSize="24sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp">
+    </TextView>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNext"
+        android:text="@string/next"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custom_button">
+    </Button>
+</LinearLayout>

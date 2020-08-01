@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications Settings"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="#E91E63"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnSetTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Reminder Time"
+        android:layout_marginLeft="8dp"
+        android:paddingTop="10dp"
+        android:textAllCaps="false"
+        android:textSize="23sp"
+        android:textAlignment="viewStart"
+        android:background="@android:color/transparent"
+        android:gravity="start" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15:00"
+            android:id="@+id/tvChosenTime"
+            android:textSize="23sp"
+            android:layout_marginLeft="130dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".drawer.SettingsFragment"
+    android:id="@+id/fragment_container"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notifications"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="#E91E63"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnSetNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_reminder_time"
+        android:layout_marginLeft="8dp"
+        android:paddingTop="10dp"
+        android:textAllCaps="false"
+        android:textSize="23sp"
+        android:textAlignment="viewStart"
+        android:background="@android:color/transparent"
+        android:gravity="start"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvChosenTime"
+        android:text="@string/_15_00"
+        android:textSize="23sp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginStart="130dp" />
+</LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginTop="15dp">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/vibration"
+             android:textSize="23sp"
+             android:layout_marginLeft="8dp"
+             android:textStyle="bold"
+             android:layout_marginStart="8dp" />
+
+         <Switch
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="245dp"
+             android:id="@+id/switchVibration"
+             android:layout_marginStart="245dp" />
+     </LinearLayout>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="8dp"
+         android:layout_marginTop="25dp"
+         android:text="@string/data"
+         android:textColor="#E91E63"
+         android:textSize="18sp"
+         android:textStyle="bold"
+         android:layout_marginStart="8dp" />
+
+     <Button
+         android:id="@+id/btnSetImportance"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/set_importance"
+         android:layout_marginLeft="8dp"
+         android:paddingTop="10dp"
+         android:textAllCaps="false"
+         android:textSize="23sp"
+         android:textAlignment="viewStart"
+         android:background="@android:color/transparent"
+         android:gravity="start"
+         android:layout_marginStart="8dp" />
+
+
+     <Button
+         android:id="@+id/btnSetThreshold"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="8dp"
+         android:background="@android:color/transparent"
+         android:gravity="start"
+         android:paddingTop="10dp"
+         android:text="@string/thresholds"
+         android:textAlignment="viewStart"
+         android:textAllCaps="false"
+         android:textSize="23sp"
+         android:layout_marginStart="8dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="275dp"
+        android:text="@string/save"
+        android:id="@+id/btnSave"
+        android:background="@drawable/custom_button"
+        android:layout_marginStart="275dp" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="8dp"
+         android:layout_marginTop="25dp"
+         android:text="@string/about"
+         android:textColor="#E91E63"
+         android:textSize="18sp"
+         android:textStyle="bold"
+         android:layout_marginStart="8dp" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/version"
+         android:layout_marginLeft="8dp"
+         android:paddingTop="10dp"
+         android:textStyle="bold"
+         android:textSize="23sp"
+         android:layout_marginStart="8dp" />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/_1_0"
+         android:layout_marginLeft="8dp"
+         android:layout_marginBottom="15dp"
+         android:textSize="16sp"
+         android:layout_marginStart="8dp">
+     </TextView>
+
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/faq"
+         android:layout_marginLeft="8dp"
+         android:paddingTop="10dp"
+         android:textStyle="bold"
+         android:textSize="23sp"
+         android:layout_marginStart="8dp" />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/frequently_asked_questions"
+         android:layout_marginLeft="8dp"
+         android:layout_marginBottom="15dp"
+         android:textSize="16sp"
+         android:layout_marginStart="8dp">
+     </TextView>
+
+ </LinearLayout>
+
+
+

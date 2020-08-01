@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".drawer.GraphsFragment"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chooseGraph"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:clipToPadding="false">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/hist"
+                android:elevation="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp">
+            </ImageView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="80dp"
+                android:id="@+id/cdHistogram"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="45dp"
+                app:cardCornerRadius="15dp"
+                android:backgroundTint="#7B68EE"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="24sp"
+                    android:paddingLeft="40dp"
+                    android:textColor="#FFFFFF"
+                    android:text="@string/barChart"
+                    android:layout_gravity="center_vertical"
+                    android:paddingStart="40dp"
+                    tools:ignore="RtlSymmetry">
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/piecharticon"
+                android:elevation="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp">
+            </ImageView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="80dp"
+                android:id="@+id/cdPieChart"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="45dp"
+                app:cardCornerRadius="15dp"
+                android:backgroundTint="#7B68EE"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="24sp"
+                    android:paddingLeft="40dp"
+                    android:text="@string/pieChart"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center_vertical"
+                    android:paddingStart="40dp"
+                    tools:ignore="RtlSymmetry">
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/lineicon"
+                android:elevation="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp">
+            </ImageView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="80dp"
+                android:id="@+id/cdLineChart"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="45dp"
+                app:cardCornerRadius="15dp"
+                android:backgroundTint="#7B68EE"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="24sp"
+                    android:paddingLeft="40dp"
+                    android:text="@string/lineChart"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center_vertical"
+                    android:paddingStart="40dp"
+                    tools:ignore="RtlSymmetry">
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/radar"
+                android:elevation="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp">
+            </ImageView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="80dp"
+                android:id="@+id/cdRadarChart"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="45dp"
+                app:cardCornerRadius="15dp"
+                android:backgroundTint="#7B68EE"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/cdBoxPlot"
+                    android:textSize="24sp"
+                    android:paddingLeft="40dp"
+                    android:text="@string/radarChart"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center_vertical"
+                    android:paddingStart="40dp"
+                    tools:ignore="RtlSymmetry">
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/weightscale"
+            android:layout_marginStart="180dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/body_weight"
+            android:textSize="35sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastUpdate"
+        android:text=""
+        android:gravity="center_horizontal"
+        android:textSize="15sp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btnChooseDate"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/cal"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:layout_marginStart="80dp" />
+
+            <Switch
+                android:id="@+id/mySwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="80dp"
+                android:switchPadding="10dp"
+                android:text="@string/today"
+                android:textSize="24sp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="80dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvDateChosen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:hint="@string/date"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/etWeight"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85dp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/insert_your_weight"
+                android:inputType="number"
+                android:layout_marginTop="35dp"
+                android:layout_marginStart="85dp" />
+
+            <Spinner
+                android:id="@+id/weightScale"
+                android:layout_width="100dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etOptionalNote"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:hint="@string/optionalNote"
+            android:inputType="text|textMultiLine"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/custom_button"
+            android:padding="15dp"
+            android:text="@string/confirm"
+            android:textSize="24sp" />
+
+</LinearLayout>
