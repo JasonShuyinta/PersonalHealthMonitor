@@ -1,4 +1,4 @@
-# PersonalHealthMonitor
+# PersonalHealthMonitor (University of Bologna, IT)
 
 **Java** written app to keep track of main Health parameters, that the user must insert manually. 
 
